@@ -2,10 +2,13 @@
 from flask import Flask, render_template, request
 import numpy as np
 import pickle
+#import xgboost as xgb
 import subprocess
 
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
+#model = xgb.Booster()
+#model.load_model("model.pkl")
 
 
 @app.route('/')
