@@ -1,2 +1,1 @@
-web: npm start
-init: FLASK_APP=run.py flask init_db
+web: npm install server && node server/index.js
