@@ -1,1 +1,1 @@
-web: npm install server && node templates/app.py
+web: npm install server && node app.py
