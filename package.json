@@ -1,16 +1,16 @@
 {
   "name": "secret-sands-32495",
   "version": "1.0.0",
-  "main": "dist/server.js",
+  "main": "./templates/index.html",
   "engines": {
-    "node": ">= 6.9.4",
-    "npm": ">= 4.4.0"
+    "node": "16.13.2",
+    "npm": "8.1.2"
   },
   "scripts": {
     "watch:build": "webpack -w",
     "watch:server": "nodemon dist/server.js",
     "dev": "npm-run-all --parallel watch:*",
-    "start": "node dist/server.js"
+    "start": "./templates/index.html"
   },
   "keywords": [],
   "author": "",
