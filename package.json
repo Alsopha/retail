@@ -1,7 +1,7 @@
 {
   "name": "secret-sands-32495",
   "version": "1.0.0",
-  "main": "./templates/index.html",
+  "main": "app.py",
   "engines": {
     "node": "16.13.2",
     "npm": "8.1.2"
@@ -10,7 +10,7 @@
     "watch:build": "webpack -w",
     "watch:server": "nodemon dist/server.js",
     "dev": "npm-run-all --parallel watch:*",
-    "start": "./templates/index.html"
+    "start": "app.py"
   },
   "keywords": [],
   "author": "",
